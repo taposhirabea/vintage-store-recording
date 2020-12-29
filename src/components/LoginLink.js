@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {useContext, UserContext} from "../context/user";
+import { UserContext} from "../context/user";
 import {CartContext} from "../context/cart";
 
 export default function LoginLink() {
